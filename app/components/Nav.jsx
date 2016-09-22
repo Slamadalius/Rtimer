@@ -16,7 +16,7 @@ var Nav = (props) => {
                         }}>Timer</IndexLink>
                     </li>
                     <li>
-                        <Link to="/about" className="eachLink" activeClassName="active" activeStyle={{
+                        <Link to="/countdown" className="eachLink" activeClassName="active" activeStyle={{
                             fontWeight: 'bold',
                             // color: '#034881'
                         }}>CountDown</Link>
