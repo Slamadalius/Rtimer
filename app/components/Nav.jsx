@@ -12,13 +12,13 @@ var Nav = (props) => {
                     <li>
                         <IndexLink to="/" className="eachLink" activeClassName="active" activeStyle={{
                             fontWeight: 'bold',
-                            color: '#034881'
+                            // color: '#034881'
                         }}>Timer</IndexLink>
                     </li>
                     <li>
                         <Link to="/about" className="eachLink" activeClassName="active" activeStyle={{
                             fontWeight: 'bold',
-                            color: '#034881'
+                            // color: '#034881'
                         }}>CountDown</Link>
                     </li>
 
@@ -27,7 +27,7 @@ var Nav = (props) => {
             <div className="top-bar-right">
                 <ul className="menu">
                     <li className="menu-text">
-                        Created by <a href="" target="_blank">Dalius Slamas</a>
+                        Created by <a href="https://github.com/Slamadalius/Rtimer" target="_blank">Dalius Slamas</a>
                     </li>
                 </ul>
             </div>
