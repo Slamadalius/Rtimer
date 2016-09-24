@@ -24,7 +24,6 @@ var Countdown = React.createClass({
       this.setState({
         count: newCount >= 0 ? newCount : 0
       });
-
     }, 1000);
   },
   handleSetCountdown: function (seconds) {
@@ -32,7 +31,6 @@ var Countdown = React.createClass({
       count: seconds,
       countdownStatus: 'started'
     });
-
   },
   render: function () {
     var {count} = this.state
