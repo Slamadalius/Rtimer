@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   entry: [
@@ -51,6 +52,11 @@ module.exports = {
       test: /\.jpg$/,
       loader: "url-loader?mimetype=image/jpg"
       }
+    ]
+  },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/foundation-sites/scss')
     ]
   },
   devtool: 'inline-source-map'
