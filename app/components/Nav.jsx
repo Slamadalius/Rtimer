@@ -10,7 +10,7 @@ var Nav = (props) => {
                         RTimer
                     </li>
                     <li>
-                        <IndexLink to="/" className="eachLink" activeClassName="active" activeStyle={{
+                        <IndexLink to="/timer" className="eachLink" activeClassName="active" activeStyle={{
                             fontWeight: 'bold',
                             // color: '#034881'
                         }}>Timer</IndexLink>
